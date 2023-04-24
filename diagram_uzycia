@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T22:30:20.750Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="KLQymx76Gcr01bCql7sj" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T22:32:38.964Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="Vma19aPaZRltuesuasYX" version="21.2.1" type="github">
   <diagram name="Strona-1" id="4_b_r0FPneEdvxQF47Fr">
     <mxGraphModel dx="812" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,7 +36,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-8" value="" style="html=1;whiteSpace=wrap;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="180" y="80" width="430" height="430" as="geometry" />
+          <mxGeometry x="180" y="80" width="430" height="770" as="geometry" />
         </mxCell>
         <mxCell id="t_vTnjnZ2baawU1hBgG_-1" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;System zewnętrzny&lt;br&gt;Generator kodów kreskowych&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="xjDF9pEwEW9eb6jhkBWc-3">
           <mxGeometry x="670" y="620" width="30" height="60" as="geometry" />
