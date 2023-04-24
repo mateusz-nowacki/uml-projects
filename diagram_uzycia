@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T22:24:24.519Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="zXGF3OABclESqLVZNQhD" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T22:25:32.104Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="ChRdohBrtZh_vNncqzXe" version="21.2.1" type="github">
   <diagram name="Strona-1" id="4_b_r0FPneEdvxQF47Fr">
     <mxGraphModel dx="812" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,13 +8,13 @@
           <mxGeometry x="40" y="40" width="760" height="880" as="geometry" />
         </mxCell>
         <mxCell id="xjDF9pEwEW9eb6jhkBWc-2" value="Kierownik" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="60" y="90" width="30" height="60" as="geometry" />
+          <mxGeometry x="80" y="100" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xjDF9pEwEW9eb6jhkBWc-1" value="Sprzedawca" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="60" y="350" width="30" height="60" as="geometry" />
+          <mxGeometry x="80" y="350" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-2" value="Magazynier" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="60" y="560" width="30" height="60" as="geometry" />
+          <mxGeometry x="80" y="560" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-11" value="System zewnętrzny&lt;br&gt;Firma transportowa" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
           <mxGeometry x="670" y="500" width="30" height="60" as="geometry" />
@@ -23,7 +23,7 @@
           <mxGeometry x="670" y="730" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-18" value="Planista produkcji" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="60" y="700" width="30" height="60" as="geometry" />
+          <mxGeometry x="80" y="700" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-21" value="Klient" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
           <mxGeometry x="660" y="350" width="30" height="60" as="geometry" />
@@ -57,7 +57,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-36" value="Uzupełnienie warunków transportu" style="ellipse;whiteSpace=wrap;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="340" y="370" width="105" height="60" as="geometry" />
+          <mxGeometry x="340" y="350" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t_vTnjnZ2baawU1hBgG_-11" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="xjDF9pEwEW9eb6jhkBWc-3" source="yINx0Oa0qj7sMehLbz9O-21" target="t_vTnjnZ2baawU1hBgG_-2">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -99,7 +99,7 @@
           <mxGeometry x="235" y="515" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-38" value="Rozpatrzenie zasadności reklamacji" style="ellipse;whiteSpace=wrap;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="340" y="450" width="105" height="60" as="geometry" />
+          <mxGeometry x="340" y="440" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-39" value="Generowanie listu przewozowego" style="ellipse;whiteSpace=wrap;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
           <mxGeometry x="445" y="500" width="105" height="60" as="geometry" />
@@ -181,7 +181,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t_vTnjnZ2baawU1hBgG_-32" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="xjDF9pEwEW9eb6jhkBWc-3" source="yINx0Oa0qj7sMehLbz9O-36" target="yINx0Oa0qj7sMehLbz9O-33">
-          <mxGeometry x="-0.2" y="-37" width="160" relative="1" as="geometry">
+          <mxGeometry x="-0.3333" y="-37" width="160" relative="1" as="geometry">
             <mxPoint x="280" y="590" as="sourcePoint" />
             <mxPoint x="393" y="320" as="targetPoint" />
             <mxPoint x="1" as="offset" />
