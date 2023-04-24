@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T20:47:01.847Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="jC_hgFYQ9Jr_1aPrssPx" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T20:56:16.298Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="YEcxfzkh2Y0aNOK_Fgy6" version="21.2.1" type="github">
   <diagram name="Strona-1" id="4_b_r0FPneEdvxQF47Fr">
-    <mxGraphModel dx="387" dy="266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="955" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,8 +41,35 @@
         <mxCell id="yINx0Oa0qj7sMehLbz9O-8" value="" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="220" y="110" width="430" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="yINx0Oa0qj7sMehLbz9O-9" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="365" y="150" width="140" height="70" as="geometry" />
+        <mxCell id="yINx0Oa0qj7sMehLbz9O-27" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yINx0Oa0qj7sMehLbz9O-31" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="150" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yINx0Oa0qj7sMehLbz9O-32" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yINx0Oa0qj7sMehLbz9O-33" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="550" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yINx0Oa0qj7sMehLbz9O-34" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="350" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yINx0Oa0qj7sMehLbz9O-35" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="450" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yINx0Oa0qj7sMehLbz9O-36" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="540" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yINx0Oa0qj7sMehLbz9O-37" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yINx0Oa0qj7sMehLbz9O-38" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="350" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yINx0Oa0qj7sMehLbz9O-39" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="105" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
