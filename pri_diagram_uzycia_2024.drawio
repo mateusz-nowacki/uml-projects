@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-16T18:10:05.257Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15" etag="4v3mKm4s2zpLz1rlSaV0" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-16T18:12:47.611Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15" etag="BlZJ57nSfOaL9vu9yyu8" version="24.0.7" type="github">
   <diagram name="Strona-1" id="4_b_r0FPneEdvxQF47Fr">
-    <mxGraphModel dx="522" dy="365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1305" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,13 +8,13 @@
           <mxGeometry x="40" y="50" width="760" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="xjDF9pEwEW9eb6jhkBWc-2" value="Starszy dokumentalista" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="80" y="100" width="30" height="60" as="geometry" />
+          <mxGeometry x="50" y="80" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xjDF9pEwEW9eb6jhkBWc-1" value="Archiwista" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="80" y="350" width="30" height="60" as="geometry" />
+          <mxGeometry x="50" y="442.5" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-11" value="System zewnętrzny&lt;br&gt;System indeksujący" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="670" y="515" width="30" height="60" as="geometry" />
+          <mxGeometry x="670" y="730" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-12" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;System&lt;font style=&quot;font-size: 12px;&quot;&gt; czasu&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&quot;codziennie na koniec dnia&quot;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
           <mxGeometry x="670" y="860" width="30" height="60" as="geometry" />
@@ -36,10 +36,7 @@
           <mxGeometry x="177.5" y="70" width="430" height="880" as="geometry" />
         </mxCell>
         <mxCell id="t_vTnjnZ2baawU1hBgG_-2" value="Przeglądanie dokumentów archiwalnych" style="ellipse;whiteSpace=wrap;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="300" y="150" width="105" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="t_vTnjnZ2baawU1hBgG_-3" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Przegląd danych historycznych dostaw&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="447.5" y="90" width="105" height="60" as="geometry" />
+          <mxGeometry x="400" y="490" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t_vTnjnZ2baawU1hBgG_-4" value="&lt;font size=&quot;1&quot;&gt;Inwentarz archiwum&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-family: -webkit-standard; font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
           <mxGeometry x="441.25" y="860" width="107.5" height="60" as="geometry" />
@@ -69,7 +66,7 @@
           <mxGeometry x="310" y="710" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-35" value="Upublicznienie dokumentu archiwalnego" style="ellipse;whiteSpace=wrap;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="235" y="860" width="105" height="60" as="geometry" />
+          <mxGeometry x="220" y="180" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-33" value="Utworzenie nowego katalogu" style="ellipse;whiteSpace=wrap;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
           <mxGeometry x="400" y="250" width="105" height="60" as="geometry" />
@@ -81,16 +78,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-27" value="Nadanie poziomu dostępu:&quot;ogólnodostępny&quot;, &quot;ograniczony&quot;, &quot;tajny&quot;" style="ellipse;whiteSpace=wrap;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="180" y="660" width="105" height="60" as="geometry" />
+          <mxGeometry x="400" y="160" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-32" value="Wprowadzenie nowego opracowania" style="ellipse;whiteSpace=wrap;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="230" y="460" width="105" height="60" as="geometry" />
+          <mxGeometry x="190" y="530" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-38" value="Dodanie nowego dokumentu archiwalnego" style="ellipse;whiteSpace=wrap;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
           <mxGeometry x="400" y="410" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-39" value="&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Helvetica&quot;&gt;indeksowanie zawartości archiwum w celu usprawnienia wyszukiwania dokumentów archiwalnych&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: -webkit-standard; font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="425" y="502.5" width="140" height="85" as="geometry" />
+          <mxGeometry x="425" y="717.5" width="140" height="85" as="geometry" />
         </mxCell>
         <mxCell id="t_vTnjnZ2baawU1hBgG_-15" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="xjDF9pEwEW9eb6jhkBWc-3" source="yINx0Oa0qj7sMehLbz9O-39" target="yINx0Oa0qj7sMehLbz9O-11" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -100,12 +97,6 @@
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-31" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Przypisanie dokumentów źródłowych&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
           <mxGeometry x="260" y="575" width="105" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="t_vTnjnZ2baawU1hBgG_-21" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="xjDF9pEwEW9eb6jhkBWc-3" source="xjDF9pEwEW9eb6jhkBWc-2" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="110" y="120" as="sourcePoint" />
-            <mxPoint x="450" y="120" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="t_vTnjnZ2baawU1hBgG_-22" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="xjDF9pEwEW9eb6jhkBWc-3" source="xjDF9pEwEW9eb6jhkBWc-1" target="yINx0Oa0qj7sMehLbz9O-32" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -175,10 +166,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="x9usF1vXFKsrdMA3hae5-7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;System&lt;font style=&quot;font-size: 12px;&quot;&gt; czasu&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&quot;raz na kwartał&quot;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="xjDF9pEwEW9eb6jhkBWc-3">
-          <mxGeometry x="670" y="750" width="30" height="60" as="geometry" />
+          <mxGeometry x="660" y="110" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x9usF1vXFKsrdMA3hae5-8" value="&lt;font size=&quot;1&quot;&gt;Generowanie raportu ze statystykami&lt;/font&gt;&lt;span style=&quot;font-family: -webkit-standard; font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="xjDF9pEwEW9eb6jhkBWc-3">
-          <mxGeometry x="440" y="750" width="112.5" height="60" as="geometry" />
+          <mxGeometry x="252.5" y="80" width="112.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x9usF1vXFKsrdMA3hae5-10" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="xjDF9pEwEW9eb6jhkBWc-3" source="x9usF1vXFKsrdMA3hae5-8" target="x9usF1vXFKsrdMA3hae5-7">
           <mxGeometry width="160" relative="1" as="geometry">
