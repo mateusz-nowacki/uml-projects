@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-16T18:16:51.175Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15" etag="4MirXd89LqQaPNRfNjPD" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-16T18:17:16.837Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15" etag="83Z6hH0WEZwpUe-FzxuF" version="24.0.7" type="github">
   <diagram name="Strona-1" id="4_b_r0FPneEdvxQF47Fr">
     <mxGraphModel dx="921" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,7 +66,7 @@
           <mxGeometry x="325" y="690" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-35" value="Upublicznienie dokumentu archiwalnego" style="ellipse;whiteSpace=wrap;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="256.25" y="180" width="105" height="60" as="geometry" />
+          <mxGeometry x="282.5" y="220" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-33" value="Utworzenie nowego katalogu" style="ellipse;whiteSpace=wrap;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
           <mxGeometry x="260" y="390" width="105" height="60" as="geometry" />
@@ -78,7 +78,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-27" value="Nadanie poziomu dostępu:&quot;ogólnodostępny&quot;, &quot;ograniczony&quot;, &quot;tajny&quot;" style="ellipse;whiteSpace=wrap;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
-          <mxGeometry x="400" y="160" width="105" height="60" as="geometry" />
+          <mxGeometry x="374" y="150" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yINx0Oa0qj7sMehLbz9O-32" value="Wprowadzenie nowego opracowania" style="ellipse;whiteSpace=wrap;html=1;" parent="xjDF9pEwEW9eb6jhkBWc-3" vertex="1">
           <mxGeometry x="200" y="860" width="105" height="60" as="geometry" />
@@ -209,11 +209,11 @@
             <mxPoint x="342.5" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x9usF1vXFKsrdMA3hae5-64" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="xjDF9pEwEW9eb6jhkBWc-3" source="yINx0Oa0qj7sMehLbz9O-35" target="yINx0Oa0qj7sMehLbz9O-27">
-          <mxGeometry x="-0.161" y="37" width="160" relative="1" as="geometry">
+        <mxCell id="x9usF1vXFKsrdMA3hae5-64" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.238;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="xjDF9pEwEW9eb6jhkBWc-3" source="yINx0Oa0qj7sMehLbz9O-35" target="yINx0Oa0qj7sMehLbz9O-27">
+          <mxGeometry x="-1" y="11" width="160" relative="1" as="geometry">
             <mxPoint x="260" y="780" as="sourcePoint" />
             <mxPoint x="185" y="895" as="targetPoint" />
-            <mxPoint y="1" as="offset" />
+            <mxPoint x="-3" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="x9usF1vXFKsrdMA3hae5-66" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="xjDF9pEwEW9eb6jhkBWc-3" source="xjDF9pEwEW9eb6jhkBWc-1" target="yINx0Oa0qj7sMehLbz9O-31">
