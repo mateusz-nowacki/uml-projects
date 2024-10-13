@@ -1,9 +1,235 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" version="24.7.17">
   <diagram name="Strona-1" id="xKgC_s0tg24bXrROsBk1">
-    <mxGraphModel>
+    <mxGraphModel dx="728" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-1" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;UD &quot;System teleinformatyczny wspierający działalność firmy z branży ochrony zdrowia&quot;&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=200;height=50;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="760" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-2" value="Pełnomocnik pacjenta" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="90" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-3" value="Lekarz" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="90" y="750" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-4" value="System zewnętrzny&lt;br&gt;System bankowy" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="670" y="447.5" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-5" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Podsystem&lt;font style=&quot;font-size: 12px;&quot;&gt; czasu&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&quot;jeden dzień przed&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;terminem telekonsultacji&quot;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="670" y="820" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-6" value="Diagnosta laboratoryjny" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="90" y="475" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-7" value="Pacjent" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="90" y="320" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-8" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="104.5" y="750" as="sourcePoint" />
+            <mxPoint x="104.5" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="104.5" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-9" value="" style="html=1;whiteSpace=wrap;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="177.5" y="70" width="430" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-10" value="&lt;font size=&quot;1&quot;&gt;Automatyczne powiadomienie o zbliżającym się terminie&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="451.88" y="815" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-11" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" source="y0VxGT4vFNQ9L-C-hIuM-10" target="y0VxGT4vFNQ9L-C-hIuM-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="370" as="sourcePoint" />
+            <mxPoint x="430" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-12" value="Przypisanie do katalogu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="290" y="650" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-13" value="Wykonanie kopii dokumentu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="269" y="475" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-14" value="Upublicznienie dokumentu archiwalnego" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="374" y="320" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-15" value="Utworzenie nowego katalogu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="460" y="690" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-16" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;entryX=0.073;entryY=0.772;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" target="y0VxGT4vFNQ9L-C-hIuM-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="780" as="sourcePoint" />
+            <mxPoint x="395" y="309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-17" value="Nadanie poziomu dostępu:&quot;ogólnodostępny&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="410" y="200" width="146" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-18" value="Wprowadzenie nowego opracowania" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="200" y="870" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-19" value="Dodanie nowego dokumentu archiwalnego" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="346" y="535" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-20" value="&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Helvetica&quot;&gt;Realizacja opłat za świadczone usługi&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: -webkit-standard; font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="448.75" y="440" width="127.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-21" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" source="y0VxGT4vFNQ9L-C-hIuM-20" target="y0VxGT4vFNQ9L-C-hIuM-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="475" y="290.5" as="sourcePoint" />
+            <mxPoint x="700" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-22" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Przypisanie dokumentów źródłowych&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="310" y="810" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-23" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" target="y0VxGT4vFNQ9L-C-hIuM-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="780" as="sourcePoint" />
+            <mxPoint x="435" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-24" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;entryX=0.071;entryY=0.728;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" target="y0VxGT4vFNQ9L-C-hIuM-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="170" as="sourcePoint" />
+            <mxPoint x="385" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-25" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" target="y0VxGT4vFNQ9L-C-hIuM-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="780" as="sourcePoint" />
+            <mxPoint x="365" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-26" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" target="y0VxGT4vFNQ9L-C-hIuM-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="170" as="sourcePoint" />
+            <mxPoint x="310" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-27" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" source="y0VxGT4vFNQ9L-C-hIuM-6" target="y0VxGT4vFNQ9L-C-hIuM-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="650" as="sourcePoint" />
+            <mxPoint x="260" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-28" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.254;entryY=0.944;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" source="y0VxGT4vFNQ9L-C-hIuM-18" target="y0VxGT4vFNQ9L-C-hIuM-22">
+          <mxGeometry x="0.3471" y="-33" width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="290" as="sourcePoint" />
+            <mxPoint x="430" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-29" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" source="y0VxGT4vFNQ9L-C-hIuM-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="705" y="180" as="sourcePoint" />
+            <mxPoint x="120" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-30" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" source="y0VxGT4vFNQ9L-C-hIuM-19" target="y0VxGT4vFNQ9L-C-hIuM-12">
+          <mxGeometry x="-0.4024" y="26" width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="330" as="sourcePoint" />
+            <mxPoint x="450" y="330" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" source="y0VxGT4vFNQ9L-C-hIuM-9" target="y0VxGT4vFNQ9L-C-hIuM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-32" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Podsystem&lt;font style=&quot;font-size: 12px;&quot;&gt; czasu&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&quot;codziennie na koniec dnia&quot;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="670" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-33" value="&lt;font size=&quot;1&quot;&gt;Generowanie raportu o stanie zdrowia pacjenta&lt;/font&gt;&lt;span style=&quot;font-family: -webkit-standard; font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="451.88" y="80" width="123.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-34" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" source="y0VxGT4vFNQ9L-C-hIuM-33" target="y0VxGT4vFNQ9L-C-hIuM-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="547.5" y="779.66" as="sourcePoint" />
+            <mxPoint x="668.5" y="779.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-35" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" source="y0VxGT4vFNQ9L-C-hIuM-15" target="y0VxGT4vFNQ9L-C-hIuM-12">
+          <mxGeometry x="-0.3363" y="-12" width="160" relative="1" as="geometry">
+            <mxPoint x="565" y="392" as="sourcePoint" />
+            <mxPoint x="525" y="330" as="targetPoint" />
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-36" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.96;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" source="y0VxGT4vFNQ9L-C-hIuM-15" target="y0VxGT4vFNQ9L-C-hIuM-19">
+          <mxGeometry x="-0.1024" y="-27" width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="382" as="sourcePoint" />
+            <mxPoint x="440" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-37" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" target="y0VxGT4vFNQ9L-C-hIuM-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="170" as="sourcePoint" />
+            <mxPoint x="342.5" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-38" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.575;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" source="y0VxGT4vFNQ9L-C-hIuM-14" target="y0VxGT4vFNQ9L-C-hIuM-17">
+          <mxGeometry x="0.4185" y="-39" width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="780" as="sourcePoint" />
+            <mxPoint x="185" y="895" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-39" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" target="y0VxGT4vFNQ9L-C-hIuM-22">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="780" as="sourcePoint" />
+            <mxPoint x="320" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-40" value="&lt;font size=&quot;1&quot;&gt;Przeglądanie raportów&lt;/font&gt;&lt;span style=&quot;font-family: -webkit-standard; font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="220.5" y="80" width="112.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-41" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" source="y0VxGT4vFNQ9L-C-hIuM-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="115" y="790" as="sourcePoint" />
+            <mxPoint x="105" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="105" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-42" value="Przeglądanie dokumentów archiwalnych" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="224.25" y="320" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-43" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" target="y0VxGT4vFNQ9L-C-hIuM-42">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="350" as="sourcePoint" />
+            <mxPoint x="318" y="509" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-44" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" source="y0VxGT4vFNQ9L-C-hIuM-13" target="y0VxGT4vFNQ9L-C-hIuM-14">
+          <mxGeometry x="0.2686" y="-41" width="160" relative="1" as="geometry">
+            <mxPoint x="313.3341725411799" y="320.00489425876276" as="sourcePoint" />
+            <mxPoint x="285" y="820.02" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-45" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="y0VxGT4vFNQ9L-C-hIuM-1" target="y0VxGT4vFNQ9L-C-hIuM-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="105" y="230" as="sourcePoint" />
+            <mxPoint x="104.71000000000001" y="310" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-46" value="Nadanie poziomu dostępu:&quot;ogólnodostępny&quot;, &quot;ograniczony&quot;, &quot;tajny&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="y0VxGT4vFNQ9L-C-hIuM-1">
+          <mxGeometry x="319.5" y="110" width="146" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-47" value="&lt;table style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; border-collapse: collapse;&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; class=&quot;MsoNormalTable&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;width: 99pt; border: 1pt solid black; background: rgb(217, 217, 217); padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;132&quot;&gt;&lt;p style=&quot;margin: 0cm; font-size: 12pt; font-family: Calibri, sans-serif; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: Poppins; color: black;&quot;&gt;Nazwa przypadku użycia&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; font-family: Poppins; color: rgb(100, 108, 154);&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;text-align: center; width: 354pt; border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: black black black currentcolor; border-image: none; padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;472&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;Upublicznienie dokumentu archiwalnego&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width: 99pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor black black; border-image: none; background: rgb(217, 217, 217); padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;132&quot;&gt;&lt;p style=&quot;margin: 0cm; font-size: 12pt; font-family: Calibri, sans-serif; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: Poppins; color: black;&quot;&gt;Warunek początkowy&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; font-family: Poppins; color: rgb(100, 108, 154);&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;text-align: center; width: 354pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor black black currentcolor; padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;472&quot;&gt;Aktor &lt;i&gt;Starszy dokumentalista&lt;/i&gt;&amp;nbsp;wnioskuje o upublicznienie dokumentu archiwalnego&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width: 99pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor black black; border-image: none; background: rgb(217, 217, 217); padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;132&quot;&gt;&lt;p style=&quot;margin: 0cm; font-size: 12pt; font-family: Calibri, sans-serif; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: Poppins; color: black;&quot;&gt;Główny przepływ zdarzeń&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; font-family: Poppins; color: rgb(100, 108, 154);&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;width: 354pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor black black currentcolor; padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;472&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;font size=&quot;3&quot; face=&quot;Poppins&quot;&gt;Aktor &lt;i&gt;Starszy dokumentalista&lt;/i&gt;&amp;nbsp;uruchamia przypadek użycia&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot; face=&quot;Poppins&quot;&gt;System wyświetla dokumenty, które są w systemie.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot; face=&quot;Poppins&quot;&gt;Aktor&amp;nbsp;&lt;i&gt;Starszy dokumentalista&lt;/i&gt;&amp;nbsp;wybiera dokument do upublicznienia.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot; face=&quot;Poppins&quot;&gt;System uruchamia proces umożliwiający &lt;i&gt;Starszemu dokumentaliście&lt;/i&gt; zmianę poziomu dostępu do dokumentu oraz sygnalizuje możliwość zrobienia kopii przed udostępnieniem.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot; face=&quot;Poppins&quot;&gt;Aktor &lt;i&gt;Starszy dokumentalista&lt;/i&gt;&amp;nbsp;nadaje poziom &quot;ogólnodostępny&quot; dokumentowi&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot; face=&quot;Poppins&quot;&gt;System zmienia poziom dostępu dokumentu, dokument jest dostępny do wglądu&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width: 99pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor black black; border-image: none; background: rgb(217, 217, 217); padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;132&quot;&gt;&lt;p style=&quot;margin: 0cm; font-size: 12pt; font-family: Calibri, sans-serif; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: Poppins; color: black;&quot;&gt;Alternatywne przepływy zdarzeń&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; font-family: Poppins; color: rgb(100, 108, 154);&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;width: 354pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor black black currentcolor; padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;472&quot;&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;Poppins&quot;&gt;&lt;font style=&quot;white-space: pre;&quot; color=&quot;#646c9a&quot;&gt; &lt;/font&gt;&lt;font style=&quot;white-space: pre;&quot;&gt;4&lt;/font&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;a. Aktor &lt;/span&gt;&lt;i style=&quot;white-space: pre;&quot;&gt;Pracownik obsługi&lt;/i&gt; &lt;span style=&quot;white-space: pre;&quot;&gt;wykonuje&lt;/span&gt;&amp;nbsp;kopię dokumentu&lt;span style=&quot;white-space: pre;&quot;&gt;.&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;Poppins&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; 4b. Aktor &lt;i&gt;Archiwista &lt;/i&gt;wykonuje kopię dokumentu.&lt;/span&gt;&lt;font color=&quot;#646c9a&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width: 99pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor black black; border-image: none; background: rgb(217, 217, 217); padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;132&quot;&gt;&lt;p style=&quot;margin: 0cm; font-size: 12pt; font-family: Calibri, sans-serif; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: Poppins; color: black;&quot;&gt;Zakończenie&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; font-family: Poppins; color: rgb(100, 108, 154);&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;text-align: center; width: 354pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor black black currentcolor; padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;472&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Poppins&quot;&gt;Zgodnie ze scenariuszem&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width: 99pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: currentcolor black black; border-image: none; background: rgb(217, 217, 217); padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;132&quot;&gt;&lt;p style=&quot;margin: 0cm; font-size: 12pt; font-family: Calibri, sans-serif; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: Poppins; color: black;&quot;&gt;Warunek końcowy&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; font-family: Poppins; color: rgb(100, 108, 154);&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;text-align: justify; width: 354pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: currentcolor black black currentcolor; padding: 0cm 5.4pt;&quot; valign=&quot;top&quot; width=&quot;472&quot;&gt;Zostaje upubliczniony dokument archiwalny.&lt;br&gt;Sukces:&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Aktorzy &lt;i&gt;Goście, Pracownik obsługi, Archiwista, Starszy dokumentalista&lt;/i&gt;&amp;nbsp;posiadają możliwości wglądu do danego dokumentu, dokument posiada poziom dostępu &quot;ogólnodostępny&quot;.&lt;br&gt;Brak sukcesu: Aktorzy&amp;nbsp;&lt;i&gt;Goście, Pracownik obsługi, Archiwista, Starszy dokumentalista&lt;/i&gt;&amp;nbsp;nie posiadają możliwości wglądu do danego dokumentu, dokument posiada poziom dostępu inny niż &quot;ogólnodostępny&quot;, tj. &quot;ograniczony &quot; lub &quot;tajny&quot;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1200" width="610" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="y0VxGT4vFNQ9L-C-hIuM-48" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;rounded=0;" edge="1" parent="1" target="y0VxGT4vFNQ9L-C-hIuM-46">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="220" as="sourcePoint" />
+            <mxPoint x="460" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
